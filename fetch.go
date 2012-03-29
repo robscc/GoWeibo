@@ -141,7 +141,7 @@ func main(){
 	pcmd := exec.Command("curl","-u",username+":"+password,base_url+target_api+".json?source="+source);
 	output,err:= pcmd.Output();
 
-	f err != nil {
+	if err != nil {
 		fmt.Println("Get tweets Error!");
 		return;
 	}

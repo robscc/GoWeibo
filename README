@@ -1,0 +1,4 @@
+A Command Go Weibo
+File List:
+cl : compile sricpt
+fetch.go : main source file.
